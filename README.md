@@ -81,7 +81,7 @@ Gamma取小：凸顯暗，圖變亮
 ```
 然後可用以下公式計算梯度方向。
 ```
-&emsp; &emsp; &emsp; &emsp; &emsp; ![](https://i.imgur.com/DPwqyLm.png)
+&emsp; &emsp; &emsp; &emsp; ![](https://i.imgur.com/DPwqyLm.png)
 
 ##### 執行結果：
 &emsp; &emsp; ![sobel](https://i.imgur.com/lzQrDzp.jpg)

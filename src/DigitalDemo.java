@@ -66,8 +66,8 @@ public class DigitalDemo {
         gray_image.setRGB(0, 0, width, height, pixels, 0, width);
 
         try {
-            File file_gray = new File(System.getProperty("user.dir") + "\\image\\gray.bmp");
-            ImageIO.write(gray_image, "bmp", file_gray);
+            File file_gray = new File(System.getProperty("user.dir") + "\\image\\gray.jpg");
+            ImageIO.write(gray_image, "jpg", file_gray);
         }catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -88,8 +88,8 @@ public class DigitalDemo {
         negative_image.setRGB(0, 0, width, height, pixels, 0, width);
 
         try {
-            File file_negative = new File(System.getProperty("user.dir") + "\\image\\negative.bmp");
-            ImageIO.write(negative_image, "bmp", file_negative);
+            File file_negative = new File(System.getProperty("user.dir") + "\\image\\negative.jpg");
+            ImageIO.write(negative_image, "jpg", file_negative);
         }catch (Exception e) {}
     }
 
@@ -119,8 +119,8 @@ public class DigitalDemo {
         gama_image.setRGB(0, 0, width, height, pixels, 0, width);
 
         try {
-            File file_gama = new File(System.getProperty("user.dir") + "\\image\\gamma_" + gamma_value + ".bmp");
-            ImageIO.write(gama_image, "bmp", file_gama);
+            File file_gama = new File(System.getProperty("user.dir") + "\\image\\gamma_" + gamma_value + ".jpg");
+            ImageIO.write(gama_image, "jpg", file_gama);
         }catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -154,8 +154,8 @@ public class DigitalDemo {
         pepper_image.setRGB(0, 0, width, height, pixels, 0, width);
 
         try {
-            File file_pepper = new File(System.getProperty("user.dir") + "\\image\\peper.bmp");
-            ImageIO.write(pepper_image, "bmp", file_pepper);
+            File file_pepper = new File(System.getProperty("user.dir") + "\\image\\peper.jpg");
+            ImageIO.write(pepper_image, "jpg", file_pepper);
         }catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -199,8 +199,8 @@ public class DigitalDemo {
         median_image.setRGB(0, 0, width, height, pixels, 0, width);
 
         try {
-            File file_median = new File(System.getProperty("user.dir") + "\\image\\median.bmp");
-            ImageIO.write(median_image, "bmp", file_median);
+            File file_median = new File(System.getProperty("user.dir") + "\\image\\median.jpg");
+            ImageIO.write(median_image, "jpg", file_median);
         }catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -247,8 +247,8 @@ public class DigitalDemo {
         mean_image.setRGB(0, 0, width, height, mean, 0, width);
 
         try {
-            File file_mean = new File(System.getProperty("user.dir") + "\\image\\mean.bmp");
-            ImageIO.write(mean_image, "bmp", file_mean);
+            File file_mean = new File(System.getProperty("user.dir") + "\\image\\mean.jpg");
+            ImageIO.write(mean_image, "jpg", file_mean);
         }catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -284,8 +284,8 @@ public class DigitalDemo {
         otsu_image.setRGB(0, 0, width, height, pixels, 0, width);
 
         try {
-            File file_otsu = new File(System.getProperty("user.dir") + "\\image\\otsu.bmp");
-            ImageIO.write(otsu_image, "bmp", file_otsu);
+            File file_otsu = new File(System.getProperty("user.dir") + "\\image\\otsu.jpg");
+            ImageIO.write(otsu_image, "jpg", file_otsu);
         }catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -328,8 +328,8 @@ public class DigitalDemo {
         sobel_image.setRGB(0, 0, width, height, pixels, 0, width);
 
         try {
-            File file_sobel = new File(System.getProperty("user.dir") + "\\image\\sobel.bmp");
-            ImageIO.write(sobel_image, "bmp", file_sobel);
+            File file_sobel = new File(System.getProperty("user.dir") + "\\image\\sobel.jpg");
+            ImageIO.write(sobel_image, "jpg", file_sobel);
         }catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

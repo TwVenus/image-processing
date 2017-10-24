@@ -14,7 +14,8 @@
 
 #### (一)、Gray
 ``` 
-原理：彩色轉灰階的過程應該是灰階 = (紅+綠+藍)/3。但實際上人眼對綠色的亮度感最大，而對藍色最小，於是Gray = 0.299 * Red + 0.587 * Green + 0.114 * Blue才能得到比較適合人類眼睛的灰階影像。
+原理：彩色轉灰階的過程應該是灰階 = (紅+綠+藍)/3。但實際上人眼對綠色的亮度感最大，而對藍色最小，
+於是Gray = 0.299 * Red + 0.587 * Green + 0.114 * Blue才能得到比較適合人類眼睛的灰階影像。
 ```
 ##### 執行結果：
 &emsp; &emsp; ![gray](https://i.imgur.com/QrbwrTm.jpg)
@@ -54,14 +55,16 @@ Gamma取小：凸顯暗，圖變亮
 
 #### (六)、Mean filter
 ``` 
-原理：取(3 x 3) windows 並對整張 Salt and Pepper圖 做處理，將 windows 中所有數字平均取代中間的 pixel。 (會出現模糊問題)
+原理：取(3 x 3) windows 並對整張 Salt and Pepper圖 做處理，將 windows 中所有數字平均取代中間的 pixel。 
+(會出現模糊問題)
 ```
 ##### 執行結果：
 &emsp; &emsp; ![mean filter](https://i.imgur.com/FwBi5GE.jpg)
 
 #### (七)、Median filter
 ``` 
-原理：取(3 x 3) windows 並對整張 Salt and Pepper圖 做處理，將 windows 第四大的值數字取代中間 pixel。 (去 salt and pepper 的問題連良好)
+原理：取(3 x 3) windows 並對整張 Salt and Pepper圖 做處理，將 windows 第四大的值數字取代中間 pixel。
+(去 salt and pepper 的問題連良好)
 ```
 ##### 執行結果：
 &emsp; &emsp; ![median](https://i.imgur.com/1dgbGlb.jpg)
